@@ -13,7 +13,6 @@ The part 2 we will cover model deployment as web-service, monitoring with Promet
 - [Automated Feature Engineering using OpenFE](#automated-feature-engineering-using-openfe)
 - [Model Building using AutoGluon and Tracking using MLflow Server](#model-building-using-autogluon-and-tracking-using-mlflow-server)
 - [Submitting Results to Kaggle Competition and Storing Results in MLflow](#submitting-results-to-kaggle-competition-and-storing-results-in-mlflow)
-- [Conclusion and Next Steps](#conclusion-and-next-steps)
 ---
 ---
 
@@ -21,7 +20,7 @@ The part 2 we will cover model deployment as web-service, monitoring with Promet
 ---
 You can notice below that most of the code is wrapped in custom modules. 
 
-[kaggle_client](modules/kaggle_client.py) - is a convinient wrapper class that streamlines interactions with Kaggle competitions. It offers functionality for downloading competition data (train, test and sumbition files) and submitting predictions, making it easier to participate in Kaggle competitions programmatically.
+[kaggle_client](modules/kaggle_client.py) - is a convinient wrapper class that streamlines interactions with Kaggle competitions. It offers functionality for downloading competition data (train, test and submission files) and submitting predictions, making it easier to participate in Kaggle competitions programmatically.
 
 Features:
   - Automatic Data Management: Creates a data folder and downloads raw competition data (train, test, and submission files) into it.
@@ -609,15 +608,7 @@ mlflow_client.log_metric(run_id, metric_name, metric_value)
 ```
 In the screenshot below you can see, the results from AutoGluon model run with kaggle score. 
 
-```python
-from PIL import Image
-from IPython.display import display
-image = Image.open(f"{project_path}/MlfLow_summary.png")
-display(image)
-```
-
-
-    
+   
 ![png](images/MlfLow_summary.png)
     
 
@@ -681,7 +672,3 @@ For the sake of simplicity I left them here commented, but user can try them on 
 # )
 ## --------------------
 ```
-
-### Conclusion and Next steps
-
-....
