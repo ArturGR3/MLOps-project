@@ -1,0 +1,15 @@
+black
+flake8
+isort
+pip
+pandas
+psycopg2-binary
+pytest
+python-dotenv
+kaggle
+autogluon.tabular[lightgbm, xgboost, catboost]
+openfe
+mlflow 
+boto3 
+google-cloud-storage
+

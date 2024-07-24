@@ -1,0 +1,27 @@
+# Data
+/data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+mlops_project.env
+.venv
+kaggle.json
+gcp_key.json
+web_service/test_model_ag
+web-service-mlflow/test_model_ag
+web-service-mlflow/autogloun_for_deployment
+helper.md
+model_ag_deployment
+Miniconda3-latest-Linux-x86_64.sh
+feature_engineering/feature_engineering.env
+feature_engineering/data
+web_service
+web_service_mlflow 
+docs
+main.py
