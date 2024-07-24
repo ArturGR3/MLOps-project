@@ -453,7 +453,7 @@ Below you can see what were the data types changes, you can notice that some of 
 ---
 ### Automated Feature Engineering using OpenFE library
 ---
-We use open source package [OpenFE](https://github.com/IIIS-Li-Group/OpenFE) for automated feature engineering. It takes time to run this process on relatevilly large datasets, thus we perform stratified sampling to be able to create features faster. More in depth analysis about this technique and effect of new features on model performance you can find it this [Medium article](paste a link).
+We use open source package [OpenFE](https://github.com/IIIS-Li-Group/OpenFE) for automated feature engineering. It takes time to run this process on relatevilly large datasets, thus we perform stratified sampling to be able to create features faster. More in depth analysis about this technique and effect of new features on model performance you can find it this [Medium article](https://medium.com/@arturgrygorian3/enhancing-model-performance-with-automated-feature-engineering-openfe-a-step-by-step-guide-076dd2ae5983).
 
 ```python
 # Feature engineering with OpenFE
